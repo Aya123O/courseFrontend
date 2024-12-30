@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Html ,css, js">
+    <meta name="author" content="Aya Osama">
+    <meta name="description" content="This is a  Hello World page.">
+    <title>Hello, World!</title>
+    <link rel="icon" href="icon.jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="format">
+        <h2>this is text Formating Examples : </h2>
+        <p><b>Bold Text</b></p>
+        <p><u>Underlined Text</u></p>
+        <p><del>Deleted Text</del></p>
+        <p><i>Italicized Text</i></p>
+        <p><mark>Highlighted Text</mark></p>
+    </div>
+    
+    <div class="head">
+        <h2>This is Paragraph</h2>
+       <p>This is the content of the paragraph that will discuss in this chapter .</p>
+       <p>This is line one in this Chapter.<br>This is line two in this Chapter.</p>
+    </div>
+    <div class="list">
+        <ol type="I">
+            <li>List Item 1
+                <ol type="a">
+                    <li>Nested item 1.1</li>
+                    <li>Nested item 1.2</li>
+                </ol>
+            </li>
+            <li>List Item 2
+                <ol type="1">
+                    <li>Nested item 2.1</li>
+                    <li>Nested item 2.2
+                        <ol type="circle">
+                            <li>Nested item 2.2.1</li>
+                            <li>Nested item 2.2.2
+                                <ul>
+                                    <li>Nested item 2.2.2.1</li>
+                                    <li>Nested item 2.2.2.2</li>
+                                </ul>
+                            </li>
+                            <li>Nested item 2.2.3</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>List Item 3
+                <ol type="1">
+                    <li>Nested item 3.1</li>
+                    <li>Nested item 3.2</li>
+                </ol>
+            </li>
+        </ol>
+        
+    </div>
+    <div class="table">
+        <table border="1" style=" text-align: center; width: 100%;">
+            <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Schedule</th>
+                    <th rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th>Start</th>
+                    <th>End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Monday</td>
+                    <td rowspan="2">8:00 a.m.</td>
+                    <td rowspan="2">5:00 p.m.</td>
+                    <td>Introduction to XML</td>
+                </tr>
+                <tr>
+                    <td>Validity: DTD and Relax NG</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Tuesday</td>
+                    <td>11:00 a.m.</td>
+                    <td>2:00 p.m.</td>
+                    <!-- <td rowspan="3">
+                        <table border="1" style="width: 100%;">
+                            <tr>
+                                <td>XPath</td>
+                            </tr>
+                            <tr>
+                                <td>XSL Transformations</td>
+                            </tr>
+                        </table>
+                    </td> -->
+                    
+                    <td rowspan="3">
+                        XPath <hr>
+                        XSL Transformations
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>2:00 p.m.</td>
+                    <td>5:00 p.m.</td>
+                  
+                </tr>
+              
+                <tr>
+                    <td >2:00 p.m.</td>
+                    <td >5:00 p.m.</td>
+                    
+                </tr>
+               
+                
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8:00 a.m.</td>
+                    <td>12:00 p.m.</td>
+                    <td>XSL Formatting Objects</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="links">
+        <div>
+            <h3> Same tab =></h3>
+            <a href="https://www.google.com" target="_self">Visit Google</a>
+
+
+        </div>
+        <div>
+            <h3>Another tab =></h3>
+            <a href="https://www.google.com" target="_blank">Visit Google </a>
+
+        </div>
+    </div>
+    <div class="img">
+        <div class="img1">
+            <h3>Image using Relative path =></h3>
+            <img src="./background.png" alt="Background Image Image" srcset="" width="400px" height="400px">
+        </div>
+        <div class="img2">
+            <h3>Image using Absolute path =></h3>
+            <img src="C:\Users\AyOsha\Desktop\HtmlLabs\Lab1\background.png" alt="Background Image" width="400px" height="400px">
+
+        </div>
+    </div>
+    <div>
+        <h3>Click on image to go Gallery :-</h3>
+        <a href="https://www.google.com/imghp" target="_blank">
+            <img src="./th.jpeg" alt="Background Image" width="100px" height="100px">
+        </a>
+        
+    </div>
+    <div class="frame">
+        <div class="video-container">
+            <h3>Embedded YouTube Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ5D4sM0__g?si=scLENWsTOdCjerjH" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+         
+        </div>
+        
+    </div>
+    <div class="audio">
+        <h2>Audio:- </h2>
+        <audio controls autoplay loop muted>
+            <source src="audio.mp3" type="audio/mpeg">
+            <source src="audio.ogg" type="audio/ogg">
+            Your browser does not support the audio tag.
+        </audio>
+
+    </div>
+    <div class="vedio">
+        <h2>Video :- </h2>
+        <video width="640" height="360" controls autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+    
+    
+    
+</body>
+</html>

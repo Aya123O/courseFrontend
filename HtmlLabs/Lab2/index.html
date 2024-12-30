@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab2</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="form">
+            <div class="head1">
+                <h2>Exercise 1: Form</h2>
+                <hr>
+            </div>
+            <form>
+                <table style="width: 100%; text-align: left; border-spacing: 5px; ">
+                  <tr>
+                    <th colspan="2" style="text-align: left;">User Information :</th>
+                  </tr>
+                  <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input id="username" type="text" value="username" required></td>
+                  </tr>
+                  <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input id="password" type="password" required></td>
+                  </tr>
+                  <tr>
+                    <td><label for="confirm-password">Confirm Password:</label></td>
+                    <td><input id="confirm-password" type="password" required></td>
+                  </tr>
+                  <tr>
+                    <td><label for="phone">Phone Number:</label></td>
+                    <td><input id="phone" type="tel" value="000-000-0000" required></td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input id="email" type="email" required></td>
+                  </tr>
+                  <tr>
+                    <td>Gender:</td>
+                    <td>
+                      <label><input type="radio" name="gender" value="Male"> Male</label>
+                      <label><input type="radio" name="gender" value="Female"> Female</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input id="dob" type="date"></td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: left;">Feedback Section</th>
+                  </tr>
+                  <tr>
+                    <td>Do you like this lab:</td>
+                    <td>
+                      <label><input type="radio" name="like" value="Yes" checked> Yes</label>
+                      <label><input type="radio" name="like" value="No"> No</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="rate">Rate our Session:</label></td>
+                    <td><input id="rate" type="range" min="1" max="10" value="5"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="color">Favorite Color:</label></td>
+                    <td>
+                      <select id="color">
+                        <option>Red</option>
+                        <option>Green</option>
+                        <option>Blue</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="feedback">Feedback:</label></td>
+                    <td><textarea id="feedback"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td><label for="resume">Upload Resume:</label></td>
+                    <td><input id="resume" type="file"></td>
+                  </tr>
+                  <tr>
+                    <td>Select your fav language:</td>
+                    <td>
+                      <label><input type="checkbox" value="HTML"> HTML</label>
+                      <label><input type="checkbox" value="CSS"> CSS</label>
+                      <label><input type="checkbox" value="JavaScript"> JavaScript</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="text-align: center;">
+                      <input type="hidden" name="hiddenField" value="hiddenValue">
+                      <button id="submit-button" type="submit" style="margin-top: 10px; width:100px;">Submit</button>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+              
+              
+        </div>
+        <div class="semantic">
+            <div class="head1">
+                <h2>Exercise 2: Basic Form with Semantic Tags</h2>
+                <hr>
+            </div>
+            <div class="content">
+                <main style="margin: 20px auto; padding: 20px; max-width: 500px; ">
+                    <header>
+                      <h1 style="font-size: 18px; text-align: center; margin-bottom: 10px;">Registration Form</h1>
+                    </header>
+                    <form>
+                   
+                      <section style="margin-bottom: 10px;">
+                        <label style="display: block; margin-bottom: 5px;">Name: 
+                          <input type="text" required style="width: 100%; padding: 5px; ">
+                        </label>
+                      </section>
+                
+                     
+                      <section style="margin-bottom: 10px;">
+                        <label style="display: block; margin-bottom: 5px;">Email: 
+                          <input type="email" required style="width: 100%; padding: 5px;">
+                        </label>
+                      </section>
+                
+                     
+                      <section style="margin-bottom: 10px;">
+                        <label style="display: block; margin-bottom: 5px;">Password: 
+                          <input type="password" required style="width: 100%; padding: 5px;">
+                        </label>
+                      </section>
+                
+                   
+                      <footer style="margin-top: 10px;">
+                        <a href="#" style="display: block; text-align: center; font-size: 14px; margin-bottom: 10px;">Terms and Conditions</a>
+                        <button type="submit" style="padding: 5px; width: 100%;">Submit</button>
+                      </footer>
+                    </form>
+                  </main>
+              
+                  
+            </div>
+        </div>
+        <div class="article">
+            <div class="head1">
+                <h2>Nested Semantic Tags with CSS Properties</h2>
+                <hr>
+            </div>
+            <div class="content2">
+                <article >
+                    <section>
+                      <form>
+                        <textarea placeholder="Write your comment..."></textarea><br>
+                        <button type="submit">Submit</button>
+                      </form>
+                    </section>
+                  </article>
+                  
+            </div>
+    
+        </div>
+        <div>
+            <div class="head1">
+                <h2> Exercise 8: Accessible Form with Semantic Tags and CSS</h2>
+                <hr>
+            </div>
+            <div>
+                <form class="form2">
+                    <fieldset>
+                      <legend>Contact Us</legend>
+                      <label for="name">Name: <input id="name" type="text"></label><br>
+                      <label for="email">Email: <input id="email" type="email"></label><br>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                  </form>
+                  
+            </div>
+           
+        </div>
+        <div >
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+
+        </div>
+       
+    </div>
+    
+</body>
+</html>

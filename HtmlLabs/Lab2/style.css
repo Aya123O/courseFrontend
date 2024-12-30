@@ -1,0 +1,57 @@
+
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+form {
+    background-color: #f9f9f9;
+    padding: 2em;
+    margin: 2rem auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  input[type="text"] {
+    background-color: #e3f2fd;
+  }
+  #submit-button {
+    background-color: #1976d2;
+    color: white;
+    padding: 0.5em 1em;
+  }
+ 
+  article {
+    overflow: hidden;
+        background-image: url('cartoon.webp');
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 20px;
+        border: 2px solid #ccc;
+        width: 100%;
+  
+      }
+      .form2 {
+        background-color: #000;
+        color: #fff;
+        padding: 1.5rem;
+        border-radius: 5px;
+      }
+      .form2 button{
+        margin-top:10px ;
+      }
+      .box {
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+        padding: 20px;
+        border: 5px solid #000;
+        box-sizing: border-box; 
+      }
+        
+      
+
+  
+    
